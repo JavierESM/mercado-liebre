@@ -1,0 +1,49 @@
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff159;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#logo {
+    padding-left: 4%;
+    padding-top: 6%;
+    width: 39%;
+    height: 30%;
+    box-sizing: border-box;
+    background-color: #fff159;
+}
+
+.buscador {
+    margin-left: 22%;
+    margin-top: 21%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 148%;
+    height: 28%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 158%;
+    box-sizing: content-box;
+}
+.banner2{
+    background-color: #fff159;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    font-size: 159%;
+    height: 1%;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #110C33;
+}
+.home-b{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
