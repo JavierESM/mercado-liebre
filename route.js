@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
     let file = path.resolve('vistas/ml.html')
     res.sendFile(file)
 })
+app.get('/registro', (req, res) => {
+    let file = path.resolve('vistas/registro.html')
+    res.sendFile(file)
+})
 app.get(`*`, (req, res) => {
     if (req.url.endsWith('.css')) {
         let file = path.resolve('public' + req.url)
