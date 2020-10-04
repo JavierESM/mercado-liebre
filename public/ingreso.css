@@ -2,8 +2,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:#F0F0F0;
-    box-sizing: border-box;
+    background-color:#F0F0F0
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 /*/HEADER/*/
 header{
@@ -29,14 +32,6 @@ header{
     box-sizing: border-box;
     border-radius: 7px;
     
-}
-#CTA{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 35px;
-    font-family: sans-serif;
-    font-weight: bold;
 }
 #bars-cont{
     display: flex;
@@ -73,9 +68,6 @@ nav > ul > li {
     display: flex;
     cursor: pointer;
 }
-.home-b{
-    width: 100%;
-}
 /*/MAIN/*/
 .registro{
     align-items: center;
@@ -92,121 +84,7 @@ nav > ul > li {
     font-size: 25px;
     padding: 2%;
 }
-.dob{
-    align-self: flex-start;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-#dob{
-    margin: 0;
-}
-
-h2{
-    margin: 4%;
-    font-size: 45px;
-    font-family: sans-serif;
-}
-form > label{
-    font-size: 35px;
-    font-family: sans-serif;
-    margin: 4%;
-}
-
-
-form > div > label{
-    font-size: 35px;
-    font-family: sans-serif;
-    margin: 4%;
-}
-
-input[type=radio]{
-    transform: scale(2);
-    margin: 4%;
-    position: relative;
-    bottom: 7px;
-}
-
-.intereses{
-    display: flex;
-}
-
-
-div.intereses > form{
-    width: 24%;
-    margin: 4%;
-}
-
-.temas{
-    display: flex;
-    flex-direction: column;
-}
-
-.checkbox{
-    transform: scale(1.8);
-    margin: 2%;
-    position: relative;
-    bottom: 7px;
-}
-
-
-div.temas > form{
-    width: 24%;
-    margin: 4%;
-}
-
-#vender{
-    position: relative;
-    left: 25px;
-}
-
-.perfil{
-    margin: 4.8%;
-    font-size: 45px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-.perfil > button{
-    transform: scale(1.5);
-    margin: 4%;
-}
-
-.perfil-b{
-    display: flex;
-    flex-direction: row;
-    margin: 4%;
-}
-
-.pswrd-lbl{
-    align-self: flex-start;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-#borrar{
-    width: 92%;
-    height: 65px;
-    border-radius: 8px;
-    border: none;
-    font-size: 25px;
-    padding: 2%;
-    margin: 4%;
-    background-color: red;
-}
-
-#enviar{
-    width: 92%;
-    height: 65px;
-    border-radius: 8px;
-    border: none;
-    font-size: 25px;
-    padding: 2%;
-    margin: 4%;
-    background-color: blue;
-}
-
-/*/FOOTER/*/
+/*FOOTER*/
 #card{
     width: 100%;
     height: 100%;

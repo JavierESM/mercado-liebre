@@ -2,18 +2,21 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport">
     <title>Mercado Liebre</title>
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 </head>
 <body class="body">
   <header>
-    <div class="banner">
-        <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre logo" id="logo">
-            <input type="text" name="buscador" class="buscador" placeholder="Buscar productos, marcas y más">
-            <div class="bars">
-              <i class="fas fa-bars"></i>
-          <div class="banner2">
+    <div class="top">
+      <img src="/images/logo-mercado-liebre.svg" id="logo" alt="Mercado Liebre">
+      <input type="text" name="buscador" rows="1" cols="10" id="buscador" placeholder="Buscar productos, marcas y más">
+    </div>
+    <div id="bars-cont">
+      <i class="fas fa-bars bars"></i>
+    </div>
+    <nav class="lista-cont">
       <ul>
         <li>Ofertas</li>
         <li>Tiendas oficiales</li>
@@ -22,16 +25,11 @@
       </ul>
       <ul>
         <li> <a href="/registro"> Creá tu cuenta </a></li>
-        <li>Ingresa</li>
+        <li> <a href="/ingreso"> Ingresar </a></li>
         <li>Mis compras</li>
       </ul>
-    </div>
-    </div>
-  </div>
-    <div class="CTA">
-        <p><strong>Comprá en cuotas y sin tarjeta de crédito</strong></p>
-      </div>
-    
+    </nav>
+  </header>
     <section>
     <img src="/images/img-home-banner.jpg" class="home-b">
     </section> 
@@ -48,32 +46,40 @@
   <article class="toparticle">
     <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera">
     <div class="tag">
+    <div>
     <p class="precio">$6.770</p>
     <p class="descuento">40% OFF</p> 
+    </div>
     <i class="fas fa-truck truck"></i>
   </div>
   </article>
   <article class="article">
     <img src="/images/img-macbook-pro-2019.jpg" alt="cafetera">
     <div class="tag">
+    <div>
       <p class="precio">$230.000</p>
       <p class="descuento">20% OFF</p>
+    </div>
       <i class="fas fa-truck truck"></i>
     </div>
   </article>
   <article class="article">
     <img src="/images/img-tv-samsung-smart.jpg" alt="cafetera">
     <div class="tag">
+      <div>
       <p class="precio">$70.500</p>
       <p class="descuento">15% OFF</p>
+    </div>
       <i class="fas fa-truck truck"></i>
     </div>
   </article>
   <article class="botarticle">
     <img src="/images/img-samsung-galaxy-s10.jpg" alt="cafetera">
     <div class="tag">
+    <div>
       <p class="precio">$34.000</p>
       <p class="descuento">5% OFF</p>
+    </div>
       <i class="fas fa-truck truck"></i>
     </div>
   </article>
@@ -86,39 +92,50 @@
   </p>
 </div>
 <div class="container">
-  <article class="toparticle">
-    <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera">
-    <div class="tag">
-    <p class="precio">$6.770</p>
-    <p class="descuento">40% OFF</p> 
+<article class="toparticle">
+  <img src="/images/img-cafetera-moulinex.jpg" alt="cafetera">
+  <div class="tag">
+  <div>
+  <p class="precio">$6.770</p>
+  <p class="descuento">40% OFF</p> 
+  </div>
+  <i class="fas fa-truck truck"></i>
+</div>
+</article>
+<article class="article">
+  <img src="/images/img-macbook-pro-2019.jpg" alt="cafetera">
+  <div class="tag">
+  <div>
+    <p class="precio">$230.000</p>
+    <p class="descuento">20% OFF</p>
+  </div>
     <i class="fas fa-truck truck"></i>
   </div>
-  </article>
-  <article class="article">
-    <img src="/images/img-macbook-pro-2019.jpg" alt="cafetera">
-    <div class="tag">
-      <p class="precio">$230.000</p>
-      <p class="descuento">20% OFF</p>
-      <i class="fas fa-truck truck"></i>
-    </div>
-  </article>
-  <article class="article">
-    <img src="/images/img-tv-samsung-smart.jpg" alt="cafetera">
-    <div class="tag">
-      <p class="precio">$70.500</p>
-      <p class="descuento">15% OFF</p>
-      <i class="fas fa-truck truck"></i>
-    </div>
-  </article>
-  <article class="botarticle">
-    <img src="/images/img-samsung-galaxy-s10.jpg" alt="cafetera">
-    <div class="tag">
-      <p class="precio">$34.000</p>
-      <p class="descuento">5% OFF</p>
-    </div>
-  </article>
+</article>
+<article class="article">
+  <img src="/images/img-tv-samsung-smart.jpg" alt="cafetera">
+  <div class="tag">
+    <div>
+    <p class="precio">$70.500</p>
+    <p class="descuento">15% OFF</p>
+  </div>
+    <i class="fas fa-truck truck"></i>
+  </div>
+</article>
+<article class="botarticle">
+  <img src="/images/img-samsung-galaxy-s10.jpg" alt="cafetera">
+  <div class="tag">
+  <div>
+    <p class="precio">$34.000</p>
+    <p class="descuento">5% OFF</p>
+  </div>
+    <i class="fas fa-truck truck"></i>
+  </div>
+</article>
+  </section>
 </div>
-</section>
+<section>
+<div>
   </main>
 <footer class="footer">
   <article>
