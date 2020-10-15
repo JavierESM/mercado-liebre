@@ -4,6 +4,9 @@ body{
     padding: 0;
     background-color:#F0F0F0
 }
+img{
+    width: 100%;
+}
 /*/HEADER/*/
 header{
     background-color: yellow;
@@ -145,6 +148,25 @@ nav > ul > li {
     width: 50%;
     height: inherit
     
+}
+.descripcion{
+    display: none;
+    height: 110px;
+    width: 98.5%;
+    margin: 0 0 0 0;
+    background-color: white;
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 1px;
+}
+article:hover > .tag > .descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 div.subtitulos > p{
     width: 90%;
